@@ -5,6 +5,7 @@ import java.math.BigInteger;
 public class Finance {
 
 	public static BigInteger finance(int number) {
+		
 		BigInteger result = BigInteger.valueOf(0);
 		BigInteger elementArr = BigInteger.valueOf(0);
 		int[][] arrNumbers = new int[number + 1][number + 1];

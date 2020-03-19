@@ -37,7 +37,7 @@ import java.math.BigInteger;
 
 public class RunnerMain {
 	
-	public static void main(String[] args) {
+		public static void main(String[] args) {
 		int numbWeek = 500;
 		BigInteger result = Finance.finance(numbWeek);
 		
