@@ -1,5 +1,7 @@
 package by.odinets.codewars.financingPlan;
 
+import java.math.BigInteger;
+
 /*
  * Financing Plan on Planet XY140Z-n
  * 
@@ -34,5 +36,13 @@ package by.odinets.codewars.financingPlan;
 
 
 public class RunnerMain {
+	
+	public static void main(String[] args) {
+		int numbWeek = 500;
+		BigInteger result = Finance.finance(numbWeek);
+		
+		System.out.println("\n numbWeek = " + numbWeek);
+		System.out.println(" result = " + result);
+	}
 
 }
